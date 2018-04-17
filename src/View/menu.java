@@ -10,11 +10,11 @@ public class menu {
     public static Scanner in = new Scanner(System.in);
 
     public int menuInicial(){
-        System.out.print("Escolha a Operaç�o:" +
-                "\n\tCriar DAO.Conta:(1)" +
-                "\n\tExcluir DAO.Conta(2)" +
-                "\n\tExcluir DAO.Conta(2)" +
-                "\nDigite a Opç�o: ");
+        System.out.print("Escolha a Operação:" +
+                "\n\tCriar Conta:(1)" +
+                "\n\tExcluir Conta(2)" +
+                "\n\tVisualizar Conta(3)" +
+                "\nDigite a Opção: ");
         return in.nextInt();
     }
     public int menuTipoDeConta(){
